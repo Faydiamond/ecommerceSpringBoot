@@ -3,8 +3,13 @@
 ![<texto-alt>](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJyPvsrm6Jkz9BC-FLWxttZEUaAYLx2ZZuxw&s)
 
 ```bash
-ghjkmmm
+ENDPOINTS:
 ```
+## Cart
+- **Get** : http://localhost:8082/api/v1/cart/1
+- **Put** : http://localhost:8082/api/v1/cart/1
+- **Post** : [http://localhost:8082/api/v1/cart/1](http://localhost:8082/api/v1/cart)  | **Body**  {"user_id": 9}
+- **Delete** : http://localhost:8082/api/v1/cart/1
 
 
 ## CONSIDERATION
