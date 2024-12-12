@@ -10,6 +10,11 @@ ENDPOINTS:
 - **Put** : http://localhost:8082/api/v1/cart/1
 - **Post** : [http://localhost:8082/api/v1/cart/1](http://localhost:8082/api/v1/cart)  | **Body**  {"user_id": 9}
 - **Delete** : http://localhost:8082/api/v1/cart/1
+## cart_items
+- **Get** : http://localhost:8082/api/v1/cartsitems
+- **Put** : http://localhost:8082/api/v1/cart/1](http://localhost:8082/api/v1/cartsitem/5) | **Body** {"cart_id": 7,"product_id": 7,"quantity" : 3}
+- **Post** : http://localhost:8082/api/v1/cartsitem/ | **Body** {"cart_id": 7,"product_id": 7,"quantity" : 3}
+- **Delete** : http://localhost:8082/api/v1/cartsitem/6
 
 
 ## CONSIDERATION
